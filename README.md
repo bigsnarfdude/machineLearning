@@ -1,4 +1,4 @@
 machineLearning
 ===============
 
-ipython notebook, matplotlib, pandas, numpy, scikit-learn, d3.js
+POC IDS anomaly detection engine built with iPython notebook, matplotlib, pandas, numpy, scikit-learn, d3.js
