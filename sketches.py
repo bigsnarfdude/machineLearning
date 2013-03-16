@@ -322,8 +322,8 @@ if __name__ == '__main__':
     for i in xrange(100000,200000):
         c.add(str(i))
     #print sys.getsizeof(a)
-    print a.getNumberEstimate()
-    print b.getNumberEstimate()
-    print c.getNumberEstimate()
-    c.join(a,b)
-    print c.getNumberEstimate()
+    print "1-100,000 random items put in set - Estimated count: ", a.getNumberEstimate()
+    print "1500 random items put in set - Estimated count: ", b.getNumberEstimate()
+    print "100,000-200,000 random items put in set - Estimated count: ", c.getNumberEstimate()
+    print "Making a joined set with items numbered 1-100k and 100k-200k", c.join(a,b)
+    print "Here is the joined count: ", c.getNumberEstimate()
